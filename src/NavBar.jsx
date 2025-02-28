@@ -3,8 +3,7 @@ import { Box, Link, Flex, Text, NativeSelect, Center,} from "@chakra-ui/react";
 import { useState } from "react";
 import CustomIndicator from "../public/IconBox/CustomIndicator";
  
-import Bro
- 
+
 
 const NavBar = () => {
 

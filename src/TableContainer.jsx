@@ -23,10 +23,10 @@ const TableContainer = () => {
 
 
           <Routes>
-            <Route path="/" element={<MainTable />} />
-            <Route path="/moneyin" element={<MoneyIn />} />
-            <Route path="/moneyout" element={<MoneyOut />} />
-           </Routes>
+  <Route path="/" element={<MainTable />} />
+  <Route path="/moneyin" element={<MoneyIn />} />
+  <Route path="/moneyout" element={<MoneyOut />} />
+</Routes>
         </Box>
       </Router>
     </>

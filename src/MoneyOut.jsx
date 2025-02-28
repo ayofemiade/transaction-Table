@@ -1,15 +1,12 @@
-import CustomIndicator from "../public/IconBox/CustomIndicator"
-import TransactionTable from "./TransactionTable"
+import { Box } from "@chakra-ui/react";
+import TransactionTable from "./TransactionTable";
 
- const MoneyOut =()=>{
+const MoneyOut = () => {
+  return (
+    <Box>
+      <TransactionTable filter="out" />
+    </Box>
+  );
+};
 
-    return(
-        <>
-        
-         <TransactionTable/>
-        
-        </>
-    )
- }
-
- export default MoneyOut
+export default MoneyOut;

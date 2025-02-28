@@ -5,7 +5,8 @@ import TableContainer from "./TableContainer"
   return(
     <>
     
-    <Box bg='green' h='100vh'>
+    <Box bg="white" h="100vh">
+
         <Flex justify='Center' alignItems='Center'>
            <TableContainer/>
         </Flex>

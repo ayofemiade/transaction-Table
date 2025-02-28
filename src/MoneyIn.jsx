@@ -1,14 +1,11 @@
-import { Box} from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import TransactionTable from "./TransactionTable";
-  
-const MoneyIn = () => {
 
+const MoneyIn = () => {
   return (
-    <>
-       <Box>
-      <TransactionTable/>
-       </Box>
-    </>
+    <Box>
+      <TransactionTable filter="in" />
+    </Box>
   );
 };
 
